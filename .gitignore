@@ -1,0 +1,15 @@
+# 模型文件
+*.pth
+# Python 缓存
+__pycache__/
+*.pyc
+# 虚拟环境
+.venv/
+venv/
+# 数据文件夹（如果下载了 MNIST）
+data/
+# Docker 镜像产物
+*.tar
+# 输出图片（如果你想保留输出图片，可删除下面这行）
+output/
+predictions.png
